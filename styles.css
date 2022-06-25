@@ -765,98 +765,99 @@ background-color: var(--color-adress);
 
 /* Низ */
 
-.footer{
-   padding-top: 60px;
-   padding-bottom: 60px;
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--back-color);
 }
 
-.adress{
+.adress {
     font-style: normal;
 
 }
 
-.adress-link{
+.adress-link {
 
     color: var(--color-adress);
 }
 
-.contacts-foter{
-    
+.contacts-foter {
+
     color: var(--color-link-footer);
 }
 
-.footer .logo{
+.footer .logo {
     display: block;
     margin-bottom: 20px;
 }
 
-.contacts-item-footer:not(:last-child){
+.contacts-item-footer:not(:last-child) {
     margin-bottom: 9px;
 }
 
 
-.footer-container{
-  display: flex;
-  align-items: baseline;
+.footer-container {
+    display: flex;
+    align-items: baseline;
 }
 
 
 
-.footer-item:not(:last-child){
+.footer-item:not(:last-child) {
     margin-right: 70px;
 }
 
-.icon-links-footer{
+.icon-links-footer {
     width: 44px;
     height: 44px;
     background-color: #2196F3;
 }
 
-.text-links-footer{
+.text-links-footer {
     display: block;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
     color: var(--color-adress);
     margin-bottom: 20px;
 
-    
-    
 
-  
-    
-    
+
+
+
+
+
 }
 
 
 
-.footer-item .social-link{
+.footer-item .social-link {
 
-    
+
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color var(--transition);
-    
+
 }
 
-.footer-item .icon-command{
+.footer-item .icon-command {
     fill: #ffffff;
-    
+
 
 }
 
-.footer-item:last-child{
+.footer-item:last-child {
     margin-left: auto;
 }
 
-.footer-item .social-link:hover, .social-link:focus{
+.footer-item .social-link:hover,
+.social-link:focus {
     background-color: var(--color-blue);
 }
 
 
-.footer-form{
-    
+.footer-form {
+
     margin-left: auto;
 
 }
@@ -864,10 +865,11 @@ background-color: var(--color-adress);
 
 
 
-.footer-input-container{
+.footer-input-container {
     display: flex;
 }
-.footer-input{
+
+.footer-input {
     display: block;
     width: 358px;
     height: 50px;
@@ -878,17 +880,17 @@ background-color: var(--color-adress);
     margin-right: 12px;
     padding: 15px 16px;
     color: rgba(255, 255, 255, 0.6);
-    
+
 }
 
 
 
-.icon-send{
-    
+.icon-send {
+
     width: 24px;
     height: 24px;
     margin-left: 10px;
-    
+
 }
 
 /* Портфолио */
