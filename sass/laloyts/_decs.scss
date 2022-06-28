@@ -1,4 +1,4 @@
-.icon-decs {
+.list-perfomance__icon {
     width: 70px;
     height: 70px;
 
@@ -10,7 +10,7 @@
 
 }
 
-.decs-item {
+.list-perfomance__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,20 +23,9 @@
 
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
-}
 
 
-.card-item {
-    margin-left: 30px;
-    margin-top: 30px;
-}
-
-.list-text {
+.list-perfomance__item {
     display: flex;
     flex-wrap: wrap;
 
