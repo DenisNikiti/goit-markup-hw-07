@@ -26,14 +26,14 @@
 
 
 
-.photo-item {
+.photo__item {
     position: relative;
     flex-basis: calc(100% / 3 - 30px);
 
 }
 
 
-.photo-item:last-child {
+.photo__item:last-child {
     margin-right: 0px;
 }
 
@@ -41,7 +41,7 @@
     position: relative;
 }
 
-.text-images {
+.photo__text {
     position: absolute;
     z-index: 1;
     width: 100%;

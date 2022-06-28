@@ -458,7 +458,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 270px;
   height: 120px;
   border-radius: 4px;
   background-color: #F5F4FA;
@@ -471,7 +471,7 @@ p {
   flex-wrap: wrap;
 }
 
-.item-text {
+.list-perfomance__item {
   flex-basis: calc(25% - 30px);
 }
 
@@ -505,12 +505,12 @@ p {
   margin-bottom: 50px;
 }
 
-.photo-item {
+.photo__item {
   position: relative;
   flex-basis: calc(33.3333333333% - 30px);
 }
 
-.photo-item:last-child {
+.photo__item:last-child {
   margin-right: 0px;
 }
 
@@ -518,7 +518,7 @@ p {
   position: relative;
 }
 
-.text-images {
+.photo__text {
   position: absolute;
   z-index: 1;
   width: 100%;

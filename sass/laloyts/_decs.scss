@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 270px;
     height: 120px;
     border-radius: 4px;
     background-color: #F5F4FA;
@@ -35,7 +35,7 @@
 
 }
 
-.item-text {
+.list-perfomance__item {
 
     flex-basis: calc(100% / 4 - 30px);
 
