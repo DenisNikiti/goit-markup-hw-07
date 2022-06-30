@@ -1,4 +1,4 @@
-.list-perfomance__icon {
+.perfomance__icon {
     width: 70px;
     height: 70px;
 
@@ -10,7 +10,7 @@
 
 }
 
-.list-perfomance__container {
+.perfomance__container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,19 +23,21 @@
 
 }
 
-
-
-.list-perfomance__item {
-    display: flex;
-    flex-wrap: wrap;
-
-
-
-
-
+.perfomance__title{
+    
+            margin: 0px;
+            margin-bottom: 10px;
+    
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.14;
+            text-transform: uppercase;
+            color: var(--color-secondary);
+        
 }
 
-.list-perfomance__item {
+
+.perfomance__item {
 
     flex-basis: calc(100% / 4 - 30px);
 
@@ -49,7 +51,3 @@
 
 
 
-.text {
-    margin-top: 10px;
-
-}
